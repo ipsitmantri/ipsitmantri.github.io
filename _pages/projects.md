@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: A growing collection of projects.
 nav: true
-display_categories: [Course Projects, Research Projects]
+display_categories: [Research Projects, Internship Projects, Course Projects, Miscellaneous]
 horizontal: false
 ---
 
