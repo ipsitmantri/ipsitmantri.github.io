@@ -1,12 +1,12 @@
 ---
 layout: page
-title: submenus
+title: Resume/CV
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: 3 Page CV
+      permalink: /assets/pdf/cv.pdf
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: 2 Page Resume (IITB)
+      permalink: /assets/pdf/resume.pdf
 ---
