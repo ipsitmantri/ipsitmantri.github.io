@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Maximizing the Spread of Influence through a Social Network
-permalink: /blog/influence-spread-maximization
+#permalink: /blog/influence-spread-maximization
 mathjax: true
 tags: Information-Diffusion, Submodular-Functions
 authors:
