@@ -8,6 +8,7 @@ authors:
       affiliations:
         name: EE, IITB
 bibliography: influence_max.bib
+url: /blog/influence-maximization
 ---
 In construction
 ===
