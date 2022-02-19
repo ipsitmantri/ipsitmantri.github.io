@@ -8,8 +8,8 @@ profile:
   align: top
   image: prof_pic.jpg
   address: >
-    <p>Room Number 116</p>
-    <p>Hostel 5, IIT Bombay</p>
+    <p>Room Number 194</p>
+    <p>Hostel 6, IIT Bombay</p>
     <p>Mumbai, Maharashtra 400076</p>
 
 news: false  # includes a list of news items
