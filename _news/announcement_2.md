@@ -1,11 +1,18 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Graduation Ceremony at IIT Bombay🎓
+date: 2022-08-20 10:00:00-0400
 inline: false
 ---
+Graduated from [IIT Bombay](https://iitb.ac.in) on its 60th convocation  
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+- [Official Diploma](/assets/pdf/Official_Diploma.pdf)
+<iframe src="{{ '/assets/pdf/Official_Diploma.pdf' | relative_url }}" width="100%" height="600px"></iframe>  
+- [Official Transcripts](/assets/pdf/Official_Transcripts.pdf)  
+<iframe src="{{ '/assets/pdf/Official_Transcripts.pdf' | relative_url }}" width="100%" height="600px"></iframe>
+
+
+<!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
 
 ***
 
@@ -28,4 +35,4 @@ Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxide
 > We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
 > —Anais Nin
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual. -->
