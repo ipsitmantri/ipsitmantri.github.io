@@ -8,8 +8,6 @@ profile:
   align: top
   image: prof_pic.jpg
   address: >
-    # <p>Room Number 116</p>
-    # <p>Hostel 5, IIT Bombay</p>
     <p>Bengaluru, Karnataka, India 560043</p>
 
 news: true  # includes a list of news items
