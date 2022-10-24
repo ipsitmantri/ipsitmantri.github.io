@@ -3,7 +3,7 @@ layout: page
 permalink: /bio/
 title: Bio
 description: #Materials for courses you taught. Replace this text with your description.
-nav: true
+nav: false
 ---
 
 ### Background
