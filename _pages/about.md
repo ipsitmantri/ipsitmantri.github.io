@@ -10,12 +10,12 @@ profile:
   address: >
     <p>Bengaluru, Karnataka, India 560043</p>
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
-> "You Are The Average Of The 5 People You Spend The Most Time With"                                                - Jim Rohn
 
+> "You Are The Average Of The 5 People You Spend The Most Time With" - Jim Rohn
 
 Good Day! I'm Ipsit, a firmware engineer in the Power Interfaces team working on Power over Ethernet Power Sourcing Equipment ICs. -- [TPS23881](https://www.ti.com/product/TPS23881). I graduated from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) with Bachelor of Technology (B.Tech.) in [Electrical Engineering](https://www.ee.iitb.ac.in/web/academics/curriculum/btechnew#SEM1) and minor in (1) [Computer Science and Engineering](https://www.cse.iitb.ac.in/) and (2) [Artificial Intelligence and Data Science](https://www.minds.iitb.ac.in/).
 
