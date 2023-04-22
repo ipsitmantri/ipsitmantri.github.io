@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Firmware Engineer in <a href="https://www.ti.com/power-management/power-over-ethernet-poe/overview.html" target="_blank">PoE</a>, at Texas Instruments
+subtitle: Incoming MS CS @ <a href="https://www.cs.purdue.edu/" target="_blank">Purdue</a> &#65372; Firmware Engineer in <a href="https://www.ti.com/power-management/power-over-ethernet-poe/overview.html" target="_blank">PoE</a>, at Texas Instruments
 
 profile:
   align: top
