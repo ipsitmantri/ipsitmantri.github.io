@@ -2,13 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: Incoming MS CS @ <a href="https://www.cs.purdue.edu/" target="_blank">Purdue</a>
+subtitle: Budding Machine Learning Researcher <br> <code>mantrik@purdue.edu</code>
 
 profile:
   align: top
   image: prof_pic.jpg
   address: >
-    <p>Bengaluru, Karnataka, India 560043</p>
+    <p>West Lafayette, Indiana, United States 47906</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 > "You Are The Average Of The 5 People You Spend The Most Time With" - Jim Rohn
 
-Good Day! I'm Ipsit, an incoming MS CS student at [Purdue University](https://www.cs.purdue.edu/). Previously I was a firmware engineer at [Texas Instruments](https://www.ti.com/).
+Good Day! I'm Ipsit, a Masters' student in the [Department of Computer Science](https://www.cs.purdue.edu) at [Purdue University](https://www.cs.purdue.edu/).
 
 <!-- I graduated from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) with Bachelor of Technology (B.Tech.) in [Electrical Engineering](https://www.ee.iitb.ac.in/web/academics/curriculum/btechnew#SEM1) and minor in (1) [Computer Science and Engineering](https://www.cse.iitb.ac.in/) and (2) [Artificial Intelligence and Data Science](https://www.minds.iitb.ac.in/). -->
 
@@ -25,7 +25,7 @@ Good Day! I'm Ipsit, an incoming MS CS student at [Purdue University](https://ww
 
 ## Research Interests
 
-My broad area of interest is machine learning and applied machine learning (generative AI). At present I collaborate with [Nevasini Sasikumar](https://www.linkedin.com/in/nevasini-sasikumar-73ba641ba/). In the past I have worked with [Prof. Abir De](https://abir-de.github.io/) on developing neural networks that can learn combinatorial optimization algorithms on graphs and influence maximization in social networks.
+My broad area of interest is **theoritical machine learning**. [Nevasini Sasikumar](https://www.linkedin.com/in/nevasini-sasikumar-73ba641ba/) has been my collaborator. In the past I have worked with [Prof. Abir De](https://abir-de.github.io/) on developing neural networks that can learn combinatorial optimization algorithms on graphs and influence maximization in social networks.
 
 <!-- Currently, I am working on my Undergraduate Thesis in the area of Graph Representation Learning and Machine Learning on Structured Data. -->
 
