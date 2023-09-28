@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 > "You Are The Average Of The 5 People You Spend The Most Time With" - Jim Rohn
 
-Good Day! I'm Ipsit, a Masters' student in the [Department of Computer Science](https://www.cs.purdue.edu) at [Purdue University](https://www.cs.purdue.edu/).
+Good Day! I'm Ipsit, a Masters' student in the [Department of Computer Science](https://www.cs.purdue.edu) at [Purdue University](https://www.cs.purdue.edu/). I am also a Graduate Research Assistant working on Explainable Optimization using Large Language Models with [Prof. Can Li](https://canli1.github.io/)
 
 <!-- I graduated from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) with Bachelor of Technology (B.Tech.) in [Electrical Engineering](https://www.ee.iitb.ac.in/web/academics/curriculum/btechnew#SEM1) and minor in (1) [Computer Science and Engineering](https://www.cse.iitb.ac.in/) and (2) [Artificial Intelligence and Data Science](https://www.minds.iitb.ac.in/). -->
 
@@ -25,7 +25,7 @@ Good Day! I'm Ipsit, a Masters' student in the [Department of Computer Science](
 
 ## Research Interests
 
-My broad area of interest is **theoritical machine learning**. [Nevasini Sasikumar](https://www.linkedin.com/in/nevasini-sasikumar-73ba641ba/) has been my collaborator. In the past I have worked with [Prof. Abir De](https://abir-de.github.io/) on developing neural networks that can learn combinatorial optimization algorithms on graphs and influence maximization in social networks.
+My broad area of interest is **theoritical machine learning** and **optimization**. At Purdue, I am working with [Prof. Rajiv Khanna](https://rjvak7.github.io/) and [Prof. Can Li](https://canli1.github.io/). [Nevasini Sasikumar](https://www.linkedin.com/in/nevasini-sasikumar-73ba641ba/) has been my collaborator. In the past I have worked with [Prof. Abir De](https://abir-de.github.io/) on developing neural networks that can learn combinatorial optimization algorithms on graphs and influence maximization in social networks.
 
 <!-- Currently, I am working on my Undergraduate Thesis in the area of Graph Representation Learning and Machine Learning on Structured Data. -->
 
