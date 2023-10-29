@@ -2,7 +2,7 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://ipsitmantri.github.io/" />        
+  <head>        
     <!-- Metadata, OpenGraph and Schema.org -->
     
 
@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Krishna Sri Ipsit  Mantri | Page not found</title>
+    <title>Krishna Sri Ipsit  Mantri | My perspective on Quantum Computing and Quantum Machine Learning</title>
     <meta name="author" content="Krishna Sri Ipsit  Mantri" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="My solution to one of the tasks of QML-HEP GSOC 2021 Evaluation Tasks" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -32,7 +32,7 @@
     <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>assets/img/favicon.ico</text></svg>"> -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://ipsitmantri.github.io/404.html">
+    <link rel="canonical" href="https://ipsitmantri.github.io/blog/2021/quantum-computing/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -66,7 +66,7 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item ">
+              <li class="nav-item active">
                 <a class="nav-link" href="/blog/">Blog</a>
               </li>
 
@@ -104,20 +104,95 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- page.html -->
-        <div class="post">
+      <!-- _layouts/post.html -->
 
-          <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
-          </header>
+<div class="post">
 
-          <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://ipsitmantri.github.io/">here</a>.</p>
+  <header class="post-header">
+    <h1 class="post-title">My perspective on Quantum Computing and Quantum Machine Learning</h1>
+    <p class="post-meta">March 20, 2021</p>
+    <p class="post-tags">
+      <a href="/blog/2021"> <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+        ·  
+        <a href="/blog/tag/quantum,">
+          <i class="fas fa-hashtag fa-sm"></i> quantum,</a>  
+          <a href="/blog/tag/qml,">
+          <i class="fas fa-hashtag fa-sm"></i> qml,</a>  
+          <a href="/blog/tag/quantum-computing">
+          <i class="fas fa-hashtag fa-sm"></i> quantum-computing</a>  
+          
+        ·  
+        <a href="/blog/category/miscellaneous">
+          <i class="fas fa-tag fa-sm"></i> miscellaneous</a>  
+          
 
-          </article>
+    </p>
+  </header>
 
-        </div>
+  <article class="post-content">
+    <p>We are currently in the <strong>Noisy Intermediate Scale Quantum</strong> <a href="https://en.wikipedia.org/wiki/Noisy_intermediate-scale_quantum_era" target="_blank" rel="noopener noreferrer">(NISQ)</a> Computing
+era. The recent quantum supremacy experiment by Google was remarkable.
+The key reason why quantum circuits or quantum computers can be much
+faster than their classical counterparts is because of <a href="https://en.wikipedia.org/wiki/Quantum_entanglement" target="_blank" rel="noopener noreferrer"><strong>quantum entanglement</strong></a>
+or <a href="https://en.wikipedia.org/wiki/Bell_state" target="_blank" rel="noopener noreferrer"><strong>Bell states</strong></a>, which are not classically realisable. For a quantum circuit to
+outperform a classical circuit, this is an essential requirement.</p>
+
+<p>The crux of machine learning or deep learning is the <a href="https://en.wikipedia.org/wiki/Universal_approximation_theorem" target="_blank" rel="noopener noreferrer"><strong>Universal Approximation Theorem</strong></a>, which informally means that by choosing a suitable deep neural
+network, we can approximate any arbitrary function as closely as possible. All
+the other types of machine learning algorithms, like Convolutional Neural
+Networks, Residual Networks, LSTMs, Graph Neural Networks, etc. are making
+use of this theorem in one way or the other. But in the present times, the stateof-
+the-art machine learning algorithms are beating human-level performance,
+along with becoming increasingly complex. Consider the recently released
+<strong>Generative Pre-Trained Transformer 3</strong> <a href="https://en.wikipedia.org/wiki/GPT-3" target="_blank" rel="noopener noreferrer">(GPT-3)</a> which is one the best models
+built by the scientists, but it has a whooping 175 billion parameters! It costs
+huge money for any person to fine-tune such a model for his work/research. It
+takes a lot of time to train too! But all this can be hopefully circumvented by
+developing and using <a href="https://en.wikipedia.org/wiki/Quantum_machine_learning" target="_blank" rel="noopener noreferrer"><strong>Quantum Machine Learning</strong></a>, i.e., by making use of
+quantum circuits to approximate functions.</p>
+
+<p>We know that we can derive a quantum circuit which produces results similar to
+any classical circuit/function. By making use of Bell states, we can increase the
+speed of making those computations. So, if we choose a generalized universal
+approximation theorem (informally), we can create fast and efficient algorithms
+giving comparable results and maybe outperforming the current classical
+state-of-the-art methods. Me being someone interested in quantum computing
+and quantum machine learning, I would like to focus on deriving quantum
+circuits which make extensive use of quantum entanglements and learn to do
+tasks at hand, exploiting quantum parallelism.</p>
+
+<p>One quantum algorithm that I like the most is the idea of <a href="https://en.wikipedia.org/wiki/Superdense_coding" target="_blank" rel="noopener noreferrer"><strong>Superdense Coding</strong></a>.
+In superdense coding, we generate and exploit a Bell state, and with a slight
+overhead of classical symbol coding, we can send/receive information
+equivalent to 2 classical bits using one quantum bit (qubit). If a communication
+standard is developed using this algorithm, this will improve the bandwidth efficiency by orders of magnitude. This will lead to more higher speeds of data communication and higher speeds of internet. Such high speed communication can also be used in the context of autonomous driving. An autonomously
+driven car needs to send and receive data constantly and should act as per the
+actions happening in its surroundings. If such a car uses this type of
+communication, it can act better in the case of emergencies and latencies will
+be drastically reduced.</p>
+
+<p>The quantum software that I am familiar with is the combination <a href="https://quantumai.google/cirq" target="_blank" rel="noopener noreferrer"><strong>Cirq</strong></a> +
+<a href="https://www.tensorflow.org/quantum" target="_blank" rel="noopener noreferrer"><strong>Tensorflow Quantum</strong></a> by Google. I found this software extremely user-friendly
+and highly intuitive to use. It has implementations ready for all the standard
+quantum gates and it also compatible with <a href="https://en.wikipedia.org/wiki/SymPy" target="_blank" rel="noopener noreferrer"><strong>Sympy</strong></a>, using which, we can define
+symbolic names to the circuit parameters and then assemble them in the form
+of <a href="https://www.tensorflow.org/quantum/tutorials/hello_many_worlds" target="_blank" rel="noopener noreferrer"><strong>Parametrized Quantum Circuits</strong></a>. These are also compatible with classical
+<a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer"><strong>Tensorflow</strong></a> and <a href="https://keras.io/" target="_blank" rel="noopener noreferrer"><strong>Keras</strong></a> models, and has a similar API too. I recommend this
+software to anyone getting started with quantum computing and quantum
+machine learning. We can also train hybrid models involving both classical and
+quantum parts. One’s imagination is the only boundary here!</p>
+
+<p>Lastly, I would like to contribute to any work which explores and demonstrates
+that Quantum Computing can be the new paradigm, and by using it we can
+reduce the amount of computational resources required drastically, which inturn
+helps in solving even more computationally intensive problems. This is the
+beginning of a new era in Artificial Intelligence and Computing and I would like
+to contribute my best to the proof of principle by taking guidance from the
+experts.</p>
+
+  </article>
+
+</div>
 
     </div>
 
