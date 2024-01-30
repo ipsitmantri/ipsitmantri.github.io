@@ -19,7 +19,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.3.22  # replace with your Ruby version
+        ruby-version: 3.1.6  # replace with your Ruby version
   
     - name: Update RubyGems
       run: gem update --system
