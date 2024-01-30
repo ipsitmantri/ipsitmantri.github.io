@@ -25,7 +25,7 @@ Good Day! I'm Ipsit, a Masters' student in the [Department of Computer Science](
 
 ## Research Interests
 
-My broad area of interest is **theoritical machine learning** and **optimization**. At Purdue, I am working with [Prof. Rajiv Khanna](https://rjvak7.github.io/) and [Prof. Can Li](https://canli1.github.io/). In the past I have worked with [Prof. Abir De](https://abir-de.github.io/) on developing neural networks that can learn combinatorial optimization algorithms on graphs and influence maximization in social networks.
+My broad area of interest is **machine learning on graphs** and **LLM applications**. At Purdue, I am working with [Prof. Bruno Ribeiro](https://www.cs.purdue.edu/homes/ribeirob/) and [Prof. Can Li](https://canli1.github.io/). In the past I have worked with [Prof. Abir De](https://abir-de.github.io/) on developing neural networks that can learn combinatorial optimization algorithms on graphs and influence maximization in social networks.
 
 <!-- Currently, I am working on my Undergraduate Thesis in the area of Graph Representation Learning and Machine Learning on Structured Data. -->
 
