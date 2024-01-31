@@ -32,8 +32,8 @@ jobs:
       with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_branch: 'gh-pages'
-          gem-src: 'Gemfile'
-          
+          gem_src: 'Gemfile'
+
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
