@@ -135,7 +135,7 @@ include: ['_pages']
 exclude:
   - bin
   - Gemfile
-  - Gemfile.lock
+  # - Gemfile.lock
   - vendor
 keep_files:
   - CNAME
