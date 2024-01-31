@@ -1,0 +1,17 @@
+name: Build and Deploy My Jekyll Site
+
+
+on:
+  push:
+    branches: 
+      - master
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build & Deploy Jekyll Site
+        uses: BryanSchuetz/jekyll-deploy-gh-pages@master
+        env: 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
