@@ -1,39 +1,74 @@
-name: Jekyll site CI
+# name: Jekyll site CI
+
+# on:
+#   workflow_dispatch:
+#   push:
+#     branches: [ master ]
+#   pull_request:
+#     branches: [ master ]
+
+# jobs:
+#   build:
+
+#     runs-on: ${{ fromJSON('["ubuntu-latest", "self-hosted"]')[github.repository == 'github/docs-internal'] }}
+
+#     steps:
+#     - name: Checkout code
+#       uses: actions/checkout@v2
+
+#     - uses: ruby/setup-ruby@v1
+#       with:
+#         ruby-version: '3.3' # Not needed with a .ruby-version file
+#         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+#     - name: Install Bundler
+#       run: gem install bundler
+
+#     - name: Bundle install
+#       run: bundle install
+
+#     - uses: actions/checkout@v2
+#     - uses: helaili/jekyll-action@v2
+#       with:
+#           token: ${{ secrets.GITHUB_TOKEN }}
+#           target_branch: 'gh-pages'
+#     - name: Build the site in the jekyll/builder container
+#       run: |
+#         docker run \
+#         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+#         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && gem install bundler && bundle install && jekyll build --future"
+name: Testing the GitHub Pages publication
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  push
 
 jobs:
-  build:
-
-    runs-on: ${{ fromJSON('["ubuntu-latest", "self-hosted"]')[github.repository == 'github/docs-internal'] }}
-
+  jekyll:
+    runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.3' # Not needed with a .ruby-version file
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-
-    - name: Install Bundler
-      run: gem install bundler
-
-    - name: Bundle install
-      run: bundle install
-
     - uses: actions/checkout@v2
+
+    # Use GitHub Actions' cache to shorten build times and decrease load on servers
+    - uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+
+    # Standard usage
+    - uses:  helaili/jekyll-action@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    # Specify the Jekyll source location as a parameter
     - uses: helaili/jekyll-action@v2
       with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: 'gh-pages'
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && gem install bundler && bundle install && jekyll build --future"
+        token: ${{ secrets.GITHUB_TOKEN }}
+        # jekyll_src: 'sample_site'
+
+    # Specify the target branch (optional)
+    - uses: helaili/jekyll-action@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        target_branch: 'gh-pages'
