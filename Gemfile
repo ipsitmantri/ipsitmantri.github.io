@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby 'head'
+ruby '3.3'
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
