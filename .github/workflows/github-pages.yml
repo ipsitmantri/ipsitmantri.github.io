@@ -14,16 +14,12 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v2
 
     - uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.3' # Not needed with a .ruby-version file
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    
-  
-    - name: Update RubyGems
-      run: gem update --system
 
     - name: Install Bundler
       run: gem install bundler
@@ -40,4 +36,4 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && gem update --system 3.3.22 && gem install bundler && bundle install && jekyll build --future"
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && gem install bundler && bundle install && jekyll build --future"
