@@ -20,7 +20,7 @@ jobs:
           gem install bundler --user-install
           bundle install
       - name: Build Jekyll Site
-        run: nbundle exec jekyll build
+        run: bundle exec jekyll build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
