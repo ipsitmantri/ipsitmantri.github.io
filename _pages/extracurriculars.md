@@ -16,7 +16,7 @@ nav: true
 
 ## Books
 - I prefer audiobooks, I can listen to them while in transit/before bed.
-- Currently listening to "Medidations - Marcus Aurelis". Next in line: "The Book of Five Rings -  Miyamoto Musashi"
+- Currently listening to "Bhagavad Gita". Finished "Medidations - Marcus Aurelis" and  "The Book of Five Rings -  Miyamoto Musashi"
 
 ## Foreign Languages
 - [Русский](https://en.wikipedia.org/wiki/Russian_language){:target="_blank"}. 
