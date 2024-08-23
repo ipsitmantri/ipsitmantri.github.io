@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 
 <!-- > "You Are The Average Of The 5 People You Spend The Most Time With" - Jim Rohn -->
 
-I am a 2nd year MS student at [Purdue Computer Science](https://www.cs.purdue.edu). I am also interning at [Sony R&D](https://www.sony.com/ja/SonyInfo/research/) in Tokyo, JP for Summer 2024. In a previous life, I was an undergraduate student at [IIT Bombay Electrical Engineering](https://www.ee.iitb.ac.in/web/index.php) from 2018-2022. I am currently looking for PhD positions (Summer/Fall 2025 start) in geometric and topological representation learning.
+I am a 2nd year MS student at [Purdue Computer Science](https://www.cs.purdue.edu). I recently finished an internship at [Sony AI](https://ai.sony/) in Tokyo, JP in Summer 2024. In a previous life, I was an undergraduate student at [IIT Bombay Electrical Engineering](https://www.ee.iitb.ac.in/web/index.php) from 2018-2022. I am currently looking for PhD positions (Summer/Fall 2025 start) in geometric and topological representation learning.
 
 <!-- I graduated from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) with Bachelor of Technology (B.Tech.) in [Electrical Engineering](https://www.ee.iitb.ac.in/web/academics/curriculum/btechnew#SEM1) and minor in (1) [Computer Science and Engineering](https://www.cse.iitb.ac.in/) and (2) [Artificial Intelligence and Data Science](https://www.minds.iitb.ac.in/). -->
 
