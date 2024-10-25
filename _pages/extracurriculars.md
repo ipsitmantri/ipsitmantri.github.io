@@ -13,6 +13,7 @@ nav: true
 - I love roller skating and ice-skating.
 - I like doing random roadtrips to scenic locations.
 - Weight lifting, volleyball, badminton, lawn tennis, swimming
+- Climed Mt. Fuji - See the [pictures](/news/announcement_17/)
 
 ## Books
 - I prefer audiobooks, I can listen to them while in transit/before bed.
