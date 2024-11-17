@@ -31,7 +31,7 @@ applications of artificial intelligence. The following masterpiece inspires me
 > 
 > — Marcus Aurelius, *Meditations*  
 
-I am fortunate to be working with [Dr. Moshe Eliasof](https://maths4dl.ac.uk/team-member/moshe-eliasof) and [Beatrice Bevilacqua](https://beabevi.github.io/) and to be advised by [Prof. Bruno Ribeiro](https://www.cs.purdue.edu/homes/ribeirob/). I am grateful to [Prof. Abir De](https://abir-de.github.io/) for advising, mentoring and motivating me to do research while I was at IITB. At Sony, I am doing research on topologically grounded 3D scene generation. I briefly worked on LLMs for supply chain optimization with [Prof. Can Li](https://canli1.github.io/).
+I am fortunate to be working with [Dr. Moshe Eliasof](https://maths4dl.ac.uk/team-member/moshe-eliasof), [Prof. Chaim Baskin](https://scholar.google.co.il/citations?user=lfWCxJYAAAAJ&hl=en) and [Beatrice Bevilacqua](https://beabevi.github.io/) and to be advised by [Prof. Bruno Ribeiro](https://www.cs.purdue.edu/homes/ribeirob/). I am grateful to [Prof. Abir De](https://abir-de.github.io/) for advising, mentoring and motivating me to do research while I was at IITB. At Sony, I am doing research on topologically grounded 3D scene generation. I briefly worked on LLMs for supply chain optimization with [Prof. Can Li](https://canli1.github.io/).
 
 
 <!-- Currently, I am working on my Undergraduate Thesis in the area of Graph Representation Learning and Machine Learning on Structured Data. -->
