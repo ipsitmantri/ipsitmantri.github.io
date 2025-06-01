@@ -2,13 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: Looking for PhD positions in Geometric and Topological Representation Learning <br> <code>mantrik@purdue.edu</code>
+subtitle: Researcher at <a href="https://insight.bgu.ac.il/" target="_blank">INSIGHT LAB, BGU</a> <br> <code>mantri@post.bgu.ac.il</code>
 
 profile:
   align: top
   image: prof_pic.png
   address: >
-    <p>West Lafayette, Indiana, United States 47906</p>
+    <p>School of ECE, <br> BGU, <br> Beer-Sheva 8410501, Israel </p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -16,8 +16,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <!-- > "You Are The Average Of The 5 People You Spend The Most Time With" - Jim Rohn -->
-
-I am a 2nd year MS student at [Purdue Computer Science](https://www.cs.purdue.edu). I recently finished an internship at [Sony AI](https://ai.sony/) in Tokyo, JP in Summer 2024. In a previous life, I was an undergraduate student at [IIT Bombay Electrical Engineering](https://www.ee.iitb.ac.in/web/index.php) from 2018-2022. I am currently looking for PhD positions (Summer/Fall 2025 start) in geometric and topological representation learning.
+I am a research intern at [INSIGHT Lab](https://insight.bgu.ac.il/) at the [Ben-Gurion University of the Negev](https://www.bgu.ac.il/en/). Recently I graduated with an MS degree from [Purdue Computer Science](https://www.cs.purdue.edu). Before that I finished an internship at [Sony AI](https://ai.sony/) in Tokyo, JP in Summer 2024. In a previous life, I was an undergraduate student at [IIT Bombay Electrical Engineering](https://www.ee.iitb.ac.in/web/index.php) from 2018-2022.
 
 <!-- I graduated from the [Indian Institute of Technology Bombay](https://www.iitb.ac.in/) with Bachelor of Technology (B.Tech.) in [Electrical Engineering](https://www.ee.iitb.ac.in/web/academics/curriculum/btechnew#SEM1) and minor in (1) [Computer Science and Engineering](https://www.cse.iitb.ac.in/) and (2) [Artificial Intelligence and Data Science](https://www.minds.iitb.ac.in/). -->
 
@@ -31,7 +30,7 @@ applications of artificial intelligence. The following masterpiece inspires me
 > 
 > — Marcus Aurelius, *Meditations*  
 
-I am fortunate to be working with [Dr. Moshe Eliasof](https://maths4dl.ac.uk/team-member/moshe-eliasof), [Prof. Chaim Baskin](https://scholar.google.co.il/citations?user=lfWCxJYAAAAJ&hl=en) and [Beatrice Bevilacqua](https://beabevi.github.io/) and to be advised by [Prof. Bruno Ribeiro](https://www.cs.purdue.edu/homes/ribeirob/). I am grateful to [Prof. Abir De](https://abir-de.github.io/) for advising, mentoring and motivating me to do research while I was at IITB. At Sony, I am doing research on topologically grounded 3D scene generation. I briefly worked on LLMs for supply chain optimization with [Prof. Can Li](https://canli1.github.io/).
+Currently I work on physics-inspired methods, primarily using ODEs to advance representation learning for foundation models. I am fortunate to be working with [Dr. Moshe Eliasof](https://maths4dl.ac.uk/team-member/moshe-eliasof), [Prof. Chaim Baskin](https://chaimbaskin.bgu.ac.il/) and [Beatrice Bevilacqua](https://beabevi.github.io/) and [Prof. Bruno Ribeiro](https://www.cs.purdue.edu/homes/ribeirob/). I am grateful to [Prof. Abir De](https://abir-de.github.io/) for advising, mentoring and motivating me to do research while I was at IITB. At Sony, I did research on topologically grounded 3D scene generation. I briefly worked on LLMs for supply chain optimization with [Prof. Can Li](https://canli1.github.io/).
 
 
 <!-- Currently, I am working on my Undergraduate Thesis in the area of Graph Representation Learning and Machine Learning on Structured Data. -->
