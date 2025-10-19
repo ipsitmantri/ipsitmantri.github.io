@@ -28,6 +28,18 @@ $boilermaker-rush:    #daaa00 !default;
 $boilermaker-coolgray: #6f727b !default;
 $boilermaker-dust:    #ebd99f !default;
 
+// University of Bonn Colors
+$uni-bonn-blue:         #003264;
+$uni-bonn-yellow:       #FDCB0A; // NEW: The vibrant yellow from the logo
+$uni-bonn-gray:         #7D7F7D; // NEW: The gray from the logo
+$uni-bonn-blue-light: lighten($uni-bonn-blue, 70%);
+$uni-bonn-yellow-light: lighten($uni-bonn-yellow, 30%);
+$lamarr-purple: #973082;
+$lamarr-violet: #4b4ad8;
+$lamarr-skyblue: #0999db;
+$lamarr-violetgrad: linear-gradient(to bottom, #494ad6 0%, #494ad6 33%, #1f2360 100%);
+$lamarr-purplegrad: linear-gradient(to bottom, #973283 0%, #973283 33%, #371b47 100%);
+$lamarr-bluegrad: linear-gradient(to bottom, #039ee2 0%, #039ee2 33%, #234569 100%);
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     #1C1C1D;

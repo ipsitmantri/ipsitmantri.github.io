@@ -3,7 +3,7 @@ layout: page
 permalink: /extracurriculars/
 title: Extracurriculars
 description: Things that I do outside of academia
-nav: true
+nav: false
 ---
 ## Music & Dance
 - Took classes of [Lindy Hop](https://en.wikipedia.org/wiki/Lindy_Hop) for a semester.

@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: A growing collection of projects.
-nav: true
+nav: false
 display_categories: [Research Projects, Internship Projects, Course Projects, Miscellaneous]
 horizontal: false
 ---
