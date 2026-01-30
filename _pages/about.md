@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 <!-- > "You Are The Average Of The 5 People You Spend The Most Time With" - Jim Rohn -->
 I am a doctoral researcher in the Prof. Zorah Lähner's [Geometry in ML](https://geometryinml.cs.uni-bonn.de/) group. I work on graph representation learning and analysis of latent spaces. Recently I graduated with an MS degree from [Purdue Computer Science](https://www.cs.purdue.edu) where I did my thesis with [Prof. Bruno Ribeiro](https://www.cs.purdue.edu/homes/ribeirob/). 
 <br>
-I worked on temporal graph learning at [INSIGHT Lab](https://insight.bgu.ac.il/) and 3D scene reconstruction at [Sony AI](https://ai.sony/) in Tokyo. <b> I am looking for 2026 summer internships in Europe/Asia.</b>
+I worked on temporal graph learning at [INSIGHT Lab](https://insight.bgu.ac.il/) and 3D scene reconstruction at [Sony AI](https://ai.sony/) in Tokyo. 
 
 In a previous life, I was an undergraduate student at [IIT Bombay Electrical Engineering](https://www.ee.iitb.ac.in/web/index.php) from 2018-2022.
 
