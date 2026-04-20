@@ -8,7 +8,7 @@ profile:
   align: top
   image: prof_pic.png
   address: >
-    <p>3.126 , Universität Bonn - Informatik II <br> Friedrich-Hirzebruch-Allee 8 <br> 53115 Bonn </p>
+    <p>3.065 , Universität Bonn - Informatik II <br> Am Propsthof 49 <br> 53123 Bonn </p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
